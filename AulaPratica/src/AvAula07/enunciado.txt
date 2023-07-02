@@ -1,0 +1,13 @@
+Crie uma solucao para gestao duma biblioteca, onde serao registados os dados de cada item na biblioteca (livros / DVD)
+
+A solucao deve permitir adicionar r remover itens a biblioteca por menu
+procurar um item, pelo nome e se existir imprimir as informaçoes--- Deve ser possivel tbm imprimir as informacoes de todos os itens
+
+Definir as classes e construtores e metodos necessarios
+
+
+Library Item representa um item (Book/DVD) que tem um title, disponibilidade, nome utilizador que requisitou o itens e õ numero de dias q foi requisitado; inclui checkout que recebe utilizador que pede emprestimo eo numero de dias e o metodo return
+
+Book - autor
+DVD - duracao
+Library - criar e gerir itens da biblioteca

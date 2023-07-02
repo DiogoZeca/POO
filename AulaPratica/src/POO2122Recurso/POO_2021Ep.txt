@@ -1,0 +1,29 @@
+
+Al�nea 1) ----------------------------------
+
+[PacoteTuristico{nome='Tranquilidade', numeroDeNoites=5, precoPorNoite=290, servicos=[Voo{code=TAP932, data=2022-07-30, classe=TURISTICA}, Alojamento{nome='B&B', numeroDeQuartos=3, ocupacaoMaxima=5, regime=PEQUENOALMOCO}]}, PacoteTuristico{nome='Descanso', numeroDeNoites=8, precoPorNoite=350, servicos=[Voo{code=TAP1477, data=2022-08-10, classe=TURISTICA}, Alojamento{nome='GreatPlace', numeroDeQuartos=1, ocupacaoMaxima=3, regime=MEIAPENSAO}, Transporte{numeroDeOcupantes=2, KmMaximos=2000, combustivel=ELETRICO}]}, PacoteTuristico{nome='Calmaria', numeroDeNoites=7, precoPorNoite=600, servicos=[Voo{code=QTR80V, data=2022-08-02, classe=PRIMEIRA}, Alojamento{nome='CoolResort', numeroDeQuartos=2, ocupacaoMaxima=4, regime=TUDOINCLUIDO}, Transporte{numeroDeOcupantes=5, KmMaximos=1000, combustivel=HIBRIDO}]}]
+Reserva{numPessoas=3, pacoteTuristico=PacoteTuristico{nome='Tranquilidade', numeroDeNoites=5, precoPorNoite=290, servicos=[Voo{code=TAP932, data=2022-07-30, classe=TURISTICA}, Alojamento{nome='B&B', numeroDeQuartos=3, ocupacaoMaxima=5, regime=PEQUENOALMOCO}]}, precoTotal=4350.0}
+Reserva{numPessoas=4, pacoteTuristico=PacoteTuristico{nome='Calmaria', numeroDeNoites=7, precoPorNoite=600, servicos=[Voo{code=QTR80V, data=2022-08-02, classe=PRIMEIRA}, Alojamento{nome='CoolResort', numeroDeQuartos=2, ocupacaoMaxima=4, regime=TUDOINCLUIDO}, Transporte{numeroDeOcupantes=5, KmMaximos=1000, combustivel=HIBRIDO}]}, precoTotal=1176.0}
+Reserva{numPessoas=2, pacoteTuristico=PacoteTuristico{nome='Descanso', numeroDeNoites=8, precoPorNoite=350, servicos=[Voo{code=TAP1477, data=2022-08-10, classe=TURISTICA}, Alojamento{nome='GreatPlace', numeroDeQuartos=1, ocupacaoMaxima=3, regime=MEIAPENSAO}, Transporte{numeroDeOcupantes=2, KmMaximos=2000, combustivel=ELETRICO}]}, precoTotal=5600.0}
+
+
+Al�nea 2) ----------------------------------
+
+AG�NCIA: AgenciaTuristica{nome='SempreAMexer', morada='Porto', listaPacotes=[PacoteTuristico{nome='Ilhas de Sol', numeroDeNoites=7, precoPorNoite=350, servicos=[]}, PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}, PacoteTuristico{nome='Diversão em Família', numeroDeNoites=5, precoPorNoite=320, servicos=[]}, PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}, PacoteTuristico{nome='Spa Real', numeroDeNoites=3, precoPorNoite=610, servicos=[]}, PacoteTuristico{nome='Praia Ativa', numeroDeNoites=7, precoPorNoite=270, servicos=[]}, PacoteTuristico{nome='Picos e Vales', numeroDeNoites=3, precoPorNoite=500, servicos=[]}], reservas=[Reserva{numPessoas=4, pacoteTuristico=PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}, precoTotal=4000.0}, Reserva{numPessoas=3, pacoteTuristico=PacoteTuristico{nome='Ilhas de Sol', numeroDeNoites=7, precoPorNoite=350, servicos=[]}, precoTotal=7350.0}, Reserva{numPessoas=2, pacoteTuristico=PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}, precoTotal=3840.0}, Reserva{numPessoas=6, pacoteTuristico=PacoteTuristico{nome='Diversão em Família', numeroDeNoites=5, precoPorNoite=320, servicos=[]}, precoTotal=9600.0}, Reserva{numPessoas=4, pacoteTuristico=PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}, precoTotal=7680.0}, Reserva{numPessoas=2, pacoteTuristico=PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}, precoTotal=2000.0}]}
+
+-- LISTA DE PACOTES ORDENADOS E FILTRADOS POR PRE�O --
+PacoteTuristico{nome='Ilhas de Sol', numeroDeNoites=7, precoPorNoite=350, servicos=[]}
+PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}
+PacoteTuristico{nome='Diversão em Família', numeroDeNoites=5, precoPorNoite=320, servicos=[]}
+PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}
+PacoteTuristico{nome='Spa Real', numeroDeNoites=3, precoPorNoite=610, servicos=[]}
+PacoteTuristico{nome='Praia Ativa', numeroDeNoites=7, precoPorNoite=270, servicos=[]}
+PacoteTuristico{nome='Picos e Vales', numeroDeNoites=3, precoPorNoite=500, servicos=[]}
+
+-- LISTA DE RESERVAS ORDENADAS POR PRE�O TOTAL --
+Reserva{numPessoas=2, pacoteTuristico=PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}, precoTotal=2000.0}
+Reserva{numPessoas=2, pacoteTuristico=PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}, precoTotal=3840.0}
+Reserva{numPessoas=4, pacoteTuristico=PacoteTuristico{nome='Montanha', numeroDeNoites=5, precoPorNoite=200, servicos=[]}, precoTotal=4000.0}
+Reserva{numPessoas=3, pacoteTuristico=PacoteTuristico{nome='Ilhas de Sol', numeroDeNoites=7, precoPorNoite=350, servicos=[]}, precoTotal=7350.0}
+Reserva{numPessoas=4, pacoteTuristico=PacoteTuristico{nome='Mergulhos Infinitos', numeroDeNoites=4, precoPorNoite=480, servicos=[]}, precoTotal=7680.0}
+Reserva{numPessoas=6, pacoteTuristico=PacoteTuristico{nome='Diversão em Família', numeroDeNoites=5, precoPorNoite=320, servicos=[]}, precoTotal=9600.0}
